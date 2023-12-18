@@ -13,7 +13,7 @@ from ackermann_msgs.msg import AckermannDriveStamped
 
 
 class f110_gym(gym.Env):
-	"""Custom Environment that follows gym interface"""
+	"""Custom Environment that follows OpenAIgym interface"""
 	def __init__(self):
 		super(f110_gym, self).__init__()
 		# Define action and observation space
