@@ -124,7 +124,6 @@ class GymBridge(Node):
             self.obs, _ , self.done, _ = self.env.reset(np.array([[sx, sy, stheta]]))
             self.ego_scan = list(self.obs['scans'][0])
 
-        # sim physical step timer
         self.drive_timer = self.create_timer(0.01, self.drive_timer_callback)
         # topic publishing timer
         self.timer = self.create_timer(0.004, self.timer_callback)
