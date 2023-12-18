@@ -138,4 +138,5 @@ def main(args=None):
         node.listener.stop()
 
 if __name__ == '__main__':
+    print("Custom Teleoperation")
     main()

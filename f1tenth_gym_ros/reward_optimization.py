@@ -7,6 +7,7 @@ csv_file_path = 'path to file'
 df_ai = pd.read_csv(csv_file_path_ai)
 df = pd.read_csv(csv_file_path)
 
+print("Environment initialization")
 env = f110_gym()
 
 v_x_ai = df_ai['v_linear_x'].values
