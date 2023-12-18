@@ -16,6 +16,7 @@ def ros_spin(env):
     rclpy.spin(env.f110_gym_node)
 
 def train(gym_env):
+    print("Training")
     path_to_model = 'path to file'
     pretrained_model = PPO.load(path_to_model)
     model = PPO('MlpPolicy',device='cuda',env=gym_env,verbose=1,tensorboard_log=log_dir)
@@ -29,6 +30,7 @@ def train(gym_env):
         model.save(f"{model_dir}/{'PP0'}_{TIMESTEPS*iters}")
 
 def test(env):
+    print("Testing")
     path_to_model = 'path to file'
     model = PPO.load(path_to_model,env = env)
     obs = env.reset()
