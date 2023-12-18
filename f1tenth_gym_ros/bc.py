@@ -12,8 +12,8 @@ from f1_openai_bridge import f110_gym
 from torch.utils.data.dataset import Dataset, random_split
 
 
-model_dir = "model_dir"
-log_dir = "log_dir"
+model_dir = "model_directory"
+log_dir = "log_directory"
 
 class ExpertDataSet(Dataset):
    def __init__(self, expert_observations, expert_actions):
