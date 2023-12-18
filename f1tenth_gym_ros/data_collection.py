@@ -142,6 +142,7 @@ class LidarDataProcessor:
         rclpy.spin(self.node)
 
 if __name__ == '__main__':
+    print("Data collection")
     rclpy.init()
     lidar_processor = LidarDataProcessor()
     lidar_processor.run()
