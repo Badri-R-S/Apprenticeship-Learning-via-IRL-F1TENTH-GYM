@@ -310,6 +310,7 @@ def convert_track(track, track_int, track_ext, iter, width):
 
 
 if __name__ == "__main__":
+    print("Generating track")
     map_idx = 0
     for i in range(NUM_MAPS):
         try:
