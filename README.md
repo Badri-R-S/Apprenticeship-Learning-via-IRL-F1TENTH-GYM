@@ -27,7 +27,9 @@ reasonable timeframe.
 
 ## Results
 - After the 15 million iterations of training, the final stages of training iterations looked as follows:
-
+<p align="center">
+  <img src = "https://github.com/Badri-R-S/Apprenticeship-Learning-via-IRL-F1TENTH-GYM/blob/master/Results/Final_training_iterations.mp4"
+    </p?
 - The policy was tested on the same map and the result is as follows:
 
 - The most important result is the generaization of the policy for different maps. This is shown as below:
