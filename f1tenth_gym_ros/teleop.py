@@ -4,8 +4,6 @@ from geometry_msgs.msg import Twist
 from pynput import keyboard
 from sensor_msgs.msg import LaserScan
 from time import time
-import csv
-import os
 import math
 
 msg = """
